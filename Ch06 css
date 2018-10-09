@@ -1,109 +1,49 @@
 
-#wrapper {
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-	min-width: 700px;
-	box-shadow: 10px 10px 5px 0px;
-	background-color: ##90C7E3
-      max-width: 100%;
+body { background-color: #FFFFFF;
+      background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/91758/ptrbackground.jpg);
+      color: #666666;
+	  font-family: Arial, Helvetica, sans-serif;
 }
-body {
-	background-color: #ffffff;
-	background: url(/1510/ch04/background.jpg);
-	color: #666666;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-  	max-width: 100%;
+#wrapper { margin-left: auto;
+           margin-right: auto;
+		   width: 80%;
+		   min-width: 960px;
+		   background-color: #FFFFFF;
+		   box-shadow: 5px 5px 5px #000033;
 }
-header {
-	background-color: #000033;
-	color: #ffffff;
-	font-family: 'Slabo 27px', serif;
-	margin-bottom: 0;
+header { background-color: #000033;
+       background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/91758/sunset.jpg);
+	   background-position: right;
+	   background-repeat: no-repeat;
+       color: #FFFFFF;
 }
-nav {
-	font-weight: bold;
-	background-color: #90c7e3;
-	font-family: 'Slabo 27px', serif;
-	width: 160px;
-	padding: 20px, 5px, 0px, 20px;
-	float: left;
+nav { background-color: #90C7E3; 
+     padding: 5px 5px 5px 20px;
+	 font-weight: bold;
 }
-
-#nav-items {
-  margin: 0;
-  list-style-type: none;
-  padding-left: 0;}
-  
-nav a {text-decoration: none;
+#content { padding: 1px 20px 20px 20px; 
 }
-a:link {color: #000033;
-  text-decoration: none}
-
-a:visited {color: #344873;
-  text-decoration: none}
-
-a:hover {color: #FFFFFF;
-  text-decoration: none}
-  
-h1 {
-	line-height: 200%;
-	background: url(/1510/ch04/sunset.jpg);
-    padding-left: 20px;
-	height: 72px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: right; 
-  max-width: 100%;
+h1 { margin-bottom: 0;
+    padding: 10px;
 }
-h2 {
-	color: #3399cc;
-	font-family: 'Slabo 27px', serif;
+h2 { color: #3399CC;
+     text-shadow: 1px 1px 1px #ccc;
 }
-h3 {
-	color: #000033;
+h3 { color: #000033; 
 }
-main {
-	margin-left: 170px;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	padding-left: 20px;
-	padding-right: 20px;
-	display: block;
-  	max-width: 100%;
-	background-color: #ffffff
+h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
+#content ul { list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/91758/marker.gif); 
+             list-style-position: inside;
 }
-dt {
-	font-weight: bold;
-	color: #000033;
+#contact { font-size: 90%; 
 }
-footer {
-	background-color: #ffffff;
-	margin-left: 170px;
-	font-size: .70em;
-	font-style: italic;
-	padding: 10px;
+dt { color: #000033; 
 }
-.resort {
-	color: #000033;
-	font-size: 1.2em;
+.resort { color: #5C7FA3; 
+         font-weight: bold;
+}	   
+footer { padding: 20px;
+       font-size: 75%;
+	   font-style: italic;
+	   font-family: Georgia, "Times New Roman", serif; 
 }
-#homehero img {
-	margin-left: 170px;
-  width: 100%;
-    position: relative;
-}
-#yurthero img {
-	margin-left: 170px;
-	height: 300px;
-	width: 100%;
-    position: relative;
-}
-#trailhero img {
-	margin-left: 170px;
-	height: 300px;
-	width: 100%;
-    position: relative;
-}
-
-header, nav, main, footer { display: block; }
